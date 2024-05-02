@@ -265,3 +265,86 @@ input::placeholder {
   margin: 1.2rem 0;
   font-family: "Poppins", sans-serif;
 }
+
+/* Footer */
+footer {
+  height: 80px;
+  background-color: #222;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+    position: relative;
+  }
+
+  nav box-icon {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 32px;
+  }
+
+  nav ul {
+    background: whitesmoke;
+    display: none;
+  }
+
+  .showmenu {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 2% 0;
+  }
+
+  nav ul li a {
+    color: #222;
+  }
+
+  /* header content */
+  .header-content {
+    width: 100%;
+    top: 16%;
+    left: 0;
+    text-align: center;
+    padding: 0 8px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 80%;
+    margin: 1.2rem auto;
+  }
+
+  .progress-bar {
+    display: none;
+  }
+  .process-content {
+    margin-top: 20px;
+  }
+  .process .box1,
+  .process .box2,
+  .process .box3 {
+    text-align: center;
+  }
+
+  /* Testimony */
+  .testimony .test {
+    margin: 1.6rem 0;
+  }
+
+  .contact form input,
+  .contact textarea {
+    width: 100%;
+  }
+}
