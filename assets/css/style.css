@@ -1,35 +1,46 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  color: #333;
-  line-height: 1.6;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-ul {
-  list-style-type: none;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  font-weight: 400;
+  /* 1.6*10 = 16px */
+  font-size: 1.6rem;
+  color: whitesmoke;
 }
+
 h1,
+h2,
+p {
+  margin: 1.6rem 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
 h2 {
-  font-weight: 300;
-  line-height: 1.2;
-  margin: 10px 0;
+  font-weight: 800;
+  font-size: 2.4rem;
 }
 
 p {
-  margin: 10px 0;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
 
 img {
   width: 100%;
+  height: auto;
 }
 
 .container {
