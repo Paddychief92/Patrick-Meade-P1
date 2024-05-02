@@ -3,6 +3,7 @@
 Welcome,
 
 Tried my best but this was a disater defintly learned alot of what not to do and will be approching projects differently in the future.
+Spent weeks working on mock ups of my design to try and get top marks but got in over my head and to top it off lost all my work.
 
 You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
