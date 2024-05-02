@@ -71,7 +71,10 @@ header {
   color: #4682b4;
   margin: 0;
 }
-
+#logo {
+  width: 48px; /* Adjust width as needed */
+  height: auto; /* Keeps the aspect ratio intact */
+}
 nav {
   padding: 2% 8%;
   display: flex;
