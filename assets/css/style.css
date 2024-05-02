@@ -53,6 +53,10 @@ img {
   display: flex;
 }
 
+.logo {
+  max-width: 56px;
+  height: auto;
+}
 .navbar a {
   color: #fff;
   padding: 10px;
