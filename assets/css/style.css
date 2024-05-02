@@ -32,6 +32,12 @@ img {
   width: 100%;
 }
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -71,7 +77,7 @@ img {
   justify-content: space-between;
 }
 
-.container {
+.nav-container {
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
@@ -83,4 +89,16 @@ img {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #333;
+  margin-bottom: 20px;
 }
